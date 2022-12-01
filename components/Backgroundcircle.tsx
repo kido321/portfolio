@@ -18,11 +18,11 @@ export default function Backgroundcircle({}: Props): ReactElement {
       }}
       className="relative flex justify-center items-center"
     >
-      <div className=" absolute border border-[#333333] border-red-500 rounded-full h-[200px] w-[200px] mt-52 animate-ping" />
-      <div className=" absolute border border-[#333333] border-red-500 rounded-full h-[250px] w-[250px] mt-52 animate-ping" />
-      <div className=" absolute border border-[#333333] border-red-500 rounded-full h-[300px] w-[300px] mt-52 animate-ping" />
-      <div className=" absolute border border-[#f7AB0A] border-red-500 rounded-full h-[350px] w-[350px] opacity-20 mt-52 animate-ping" />
-      <div className=" absolute border border-[#333333] border-red-500 rounded-full h-[400px] w-[400px] mt-52 animate" />
+      <div className=" absolute border border-[#333333]  rounded-full h-[200px] w-[200px] mt-52 animate-ping" />
+      <div className=" absolute border border-[#333333] rounded-full h-[250px] w-[250px] mt-52 animate-ping" />
+      <div className=" absolute border border-[#333333] rounded-full h-[300px] w-[300px] mt-52 animate-ping" />
+      <div className=" absolute border border-[#f7AB0A] rounded-full h-[350px] w-[350px] opacity-20 mt-52 animate-ping" />
+      <div className=" absolute border border-[#333333]  rounded-full h-[500px] w-[500px]  opacity-0 mt-52 animate-ping" />
     </motion.div>
   );
 }
