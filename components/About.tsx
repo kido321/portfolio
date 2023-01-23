@@ -14,12 +14,13 @@ export default function About({}: Props) {
           duration: 0.5,
         }}
         whileInView={{ opacity: 1, x: 0 }}
+        viewport={{ once: true }}
         src="https://media.gq.com/photos/626ff00ff297d8fecec72624/16:9/w_2560%2Cc_limit/story%2520dnc%25202022_01_13_Delante_Desouza-1369%25201.jpeg"
         className=" -mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px] "
       />
 
       <div className="space-y-10 px-0 pt-20 md:px-10 md:pt-0">
-        <h4 className=" text-4xl font-semibold mt-[10px]">
+        <h4 className=" text-4xl font-semibold mt-[10px] md:pl-[20%]">
           {" "}
           Here is a little background
         </h4>

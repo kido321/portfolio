@@ -29,7 +29,7 @@ export default function Hero({}: Props) {
           <Link href="#about">
             <button className="herobutton">About</button>
           </Link>
-          <Link href="#exprience">
+          <Link href="#experience">
             <button className="herobutton">Experience</button>
           </Link>
           <Link href="#skills">

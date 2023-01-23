@@ -4,7 +4,7 @@ interface Props {}
 
 export default function Experiencecard({}: Props) {
   return (
-    <article className="sm:pt-[10px] flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 curser-pointer transition-opacity duration-200 overflow-hidden">
+    <article className="sm:pt-[10px] flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 h-[400px] xl:h-[500px] w-[500px] md:w-[600] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 curser-pointer transition-opacity duration-200 overflow-scroll">
       <motion.img
         initial={{
           x: -100,
